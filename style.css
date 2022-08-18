@@ -1,0 +1,67 @@
+* {
+    font-family: MS Gothic;
+    font-size: 12px;
+}
+
+html {
+    background-color: forestgreen;
+    height: 100%;
+}
+h1 {
+    color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#container {
+    height: 200px;
+    width: 550px;
+    background-color: forestgreen;
+    display: grid;
+    margin: 0 auto;
+    border: 5px solid snow;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+}
+#input {
+    background-color: forestgreen;
+    color: snow;
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+#output {
+    background-color: forestgreen;
+    color: snow;
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+}
+
+#meter {
+    height: 25px;
+    width: 125px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+}
+
+#feet {
+    height: 25px;
+    width: 125px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+}
